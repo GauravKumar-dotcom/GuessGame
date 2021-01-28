@@ -1,0 +1,30 @@
+X=int(rand*10)
+print X
+
+input "Enter the number: ",A
+if A>X then
+print "Your number is greater"
+endif
+if A<X then
+print "Your number is smaller"
+endif
+if A=X then
+print "You guessed the number!"
+end
+endif
+
+input "Enter the number: ",B
+if B=X then
+print "You guessed the number!"
+endif
+if B>X then
+print "Your number is greater"
+endif
+if B<X then
+print "Your number is smaller"
+endif
+if B <> X then
+print "Better luck next time! My number is "+ X
+endif
+
+
