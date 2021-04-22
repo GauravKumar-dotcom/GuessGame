@@ -1,6 +1,7 @@
-print "I have guessed a number from 0 to 20 Guess the number! "
+print "I have guessed a number from 0 to 20 Guess the number!"
 X= int(rand*20)
 print X
+for i= 1 to 2
 input "Enter your guess: ",A
 
 if A>X then
@@ -15,12 +16,6 @@ if A=X then
 	print "You guessed the number!"
 	end
 endif
-
-input "Enter your guess: ",B
-if B=X then
-	print "You guessed the number!"
-else
-	print "Better luck next time! My number is "+X
-endif
+next i
 
 
