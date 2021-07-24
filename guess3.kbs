@@ -1,7 +1,7 @@
 print "I have guessed a number from 0 to 20 Guess the number!"
 X= int(rand*20)
 print X
-for i= 1 to 2
+for i= 1 to 3
 input "Enter your guess: ",A
 
 if A>X then
